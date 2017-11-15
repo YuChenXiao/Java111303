@@ -10,6 +10,9 @@ public interface StudentDAO {
     void add(Student s);
     Student[] getData();
     void updata(Student s);
-
+    void clear();
+    void delete(Student s);
+    Student getOneStudent(int id);
+    Student[] searchByName(String name);
 
 }
