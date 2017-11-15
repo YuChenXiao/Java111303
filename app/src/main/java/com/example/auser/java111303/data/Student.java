@@ -5,7 +5,7 @@ package com.example.auser.java111303.data;
  */
 
 public class Student {
-    int id;
+    public  int id;
     public  String name ;
     public  String tel ;
     public  String addr;
